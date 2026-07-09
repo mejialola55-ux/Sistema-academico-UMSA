@@ -1,0 +1,127 @@
+/* Elimina márgenes por defecto */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Fondo de la página */
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Centra la tarjeta */
+.login-container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+/* Tarjeta */
+.login-card{
+
+    background:white;
+
+    width:400px;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+/* Título */
+
+.login-card h1{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    color:#1e3c72;
+
+}
+
+/* Subtítulo */
+
+.login-card p{
+
+    text-align:center;
+
+    color:gray;
+
+    margin-bottom:30px;
+
+}
+
+/* Etiquetas */
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    margin-top:15px;
+
+    font-weight:bold;
+
+}
+
+/* Cajas de texto */
+
+input{
+
+    width:100%;
+
+    padding:12px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+/* Botón */
+
+button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#1e3c72;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#2a5298;
+
+}

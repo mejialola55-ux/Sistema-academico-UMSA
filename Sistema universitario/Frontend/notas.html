@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notas de la Materia</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f2f4f7;
+}
+
+.contenedor{
+    width:95%;
+    max-width:1100px;
+    margin:30px auto;
+    background:#fff;
+    border-radius:10px;
+    padding:25px;
+    box-shadow:0 0 10px rgba(0,0,0,.15);
+}
+
+h2{
+    color:#0056b3;
+    margin-bottom:20px;
+}
+
+h3{
+    margin:25px 0 10px;
+    color:#333;
+    border-left:5px solid #0056b3;
+    padding-left:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:25px;
+}
+
+th{
+    background:#0056b3;
+    color:white;
+    padding:10px;
+}
+
+td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+.final{
+    text-align:right;
+    font-size:22px;
+    font-weight:bold;
+}
+
+#notaFinal{
+    color:green;
+}
+
+.volver{
+    margin-top:25px;
+}
+
+.volver a{
+    display:inline-block;
+    text-decoration:none;
+    background:#0056b3;
+    color:white;
+    padding:10px 20px;
+    border-radius:6px;
+}
+
+.volver a:hover{
+    background:#003d80;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<h2 id="nombreMateria">Materia</h2>
+
+<h3>Evaluación definida</h3>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Nro</th>
+<th>Tipo de nota</th>
+<th>Cantidad</th>
+<th>Ponderación</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>1</td>
+<td>Parciales</td>
+<td>3</td>
+<td>52</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Examen Final</td>
+<td>1</td>
+<td>24</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Ayudantía</td>
+<td>3</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Evaluación Continua</td>
+<td>1</td>
+<td>20</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<h3>Notas de la materia</h3>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Nro</th>
+<th>Tipo de nota</th>
+<th>N°</th>
+<th>Calificación</th>
+</tr>
+
+</thead>
+
+<tbody id="tablaNotas">
+
+<!-- El JavaScript agregará las notas aquí -->
+
+</tbody>
+
+</table>
+
+<div class="final">
+
+Nota Final:
+<span id="notaFinal">0</span>/100
+
+</div>
+
+<div class="volver">
+
+<a href="dashboard.html">← Volver al Dashboard</a>
+
+</div>
+
+</div>
+
+<script src="notas.js"></script>
+
+</body>
+</html>

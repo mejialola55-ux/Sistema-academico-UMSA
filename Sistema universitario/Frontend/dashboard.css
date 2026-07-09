@@ -1,0 +1,184 @@
+/* ===== ESTILO GENERAL ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+/* ===== ENCABEZADO ===== */
+.header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.titulo h1{
+    font-size:32px;
+}
+
+.titulo h2{
+    font-size:18px;
+    font-weight:normal;
+}
+
+.linea-verde{
+    height:6px;
+    background:#28a745;
+}
+
+/* ===== LOGO ===== */
+.logo img{
+    width:90px;
+}
+
+/* ===== LOGIN ===== */
+.login-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
+
+.login-card{
+    width:400px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.login-card h1{
+    text-align:center;
+    color:#003366;
+    margin-bottom:10px;
+}
+
+.login-card p{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:12px;
+    background:#0056b3;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#003d80;
+}
+
+/* ===== TABLA ===== */
+table{
+    width: 65%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th{
+    background: #003366;
+    color: white;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+td{
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #f8f8f8;
+}
+
+tr:nth-child(even){
+    background:#f8f8f8;
+}
+
+h1,h2{
+    text-align:center;
+    margin-top:20px;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.encabezado h1{
+    margin: 0;
+    color: #003366;
+}
+.datos-estudiante{
+    width:90%;
+    margin:20px auto;
+    background:#ffffff;
+    padding:15px 20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+}
+
+.datos-estudiante p{
+    margin:8px 0;
+    font-size:16px;
+}
+
+.datos-estudiante strong{
+    color:#003366;
+}
+button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#084298;
+}
+button{
+    padding: 5px 10px;
+    font-size: 14px;
+}
